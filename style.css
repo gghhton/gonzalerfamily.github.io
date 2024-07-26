@@ -1,0 +1,320 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff2fa;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #e6b8c7;
+    padding-top: 1px;
+    height: 60px;
+}
+
+.logo {
+transform: scale(0.2);
+position: relative;
+right: 124px;
+
+}
+
+.panel {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0  60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+
+.panel-hr {
+    background-color: #ffffff;
+    width: 356px;
+    height: 2px;
+    position: relative;
+    left: 200px;
+    border-top: 70px;
+}
+
+
+
+
+.hard {
+    text-align: right;
+    padding-right:50px;
+    position: relative;
+    top: 20px;
+}
+
+.hard-skills {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 1260px;
+    list-style-position: inside;
+    position: relative;
+    top: 50px;
+}
+
+.soft{
+    text-align: right;
+    padding-right:55px;
+    position: relative;
+    top: 170px;
+}
+
+.soft-skills {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 1260px;
+    list-style-position: inside;
+    position: relative;
+    top: 200px;
+}
+
+
+
+.img-set{
+    position: relative;
+    bottom: 76px;
+display: inline-block;
+}
+
+.gif {
+    display: inline-block;
+    position: absolute;
+    transform: scale(2.4);
+    opacity: 0.4;
+    padding-bottom: 196px;
+    position: relative;
+    left: 350px;
+}
+
+.img {
+    transform: scale(2);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 1200px;
+    left: 85px;
+    border: 1px solid #000;
+}
+
+.text {
+    text-align: right;
+    position: relative;
+    left: 200px;
+    bottom: 750px;
+}
+
+.text-p{
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+
+
+.hr-robota{
+    height: 60px;
+    background-color: #e6b8c7;
+    position: relative;
+    bottom: 807px;
+}
+
+
+.ropota-palka{
+    background-color: #ffffff;
+    width: 356px;
+    height: 2px;
+    position: relative;
+    bottom: 920px;
+    right: 581px;
+}
+
+.robota-right {
+background-color: #ffffff;
+width: 356px;
+height: 2px;
+position: relative;
+bottom: 930px;
+left: 580px;}
+
+
+.robotu{
+text-align: center;
+position: relative;
+bottom: 875px;
+color: #ffffff;
+}
+
+
+.zmin {
+    text-align: center;
+    position: relative;
+    bottom: 630px;
+}
+
+.hr-hobbies {height: 60px;
+background-color: #e6b8c7;
+position: relative;
+bottom: 300px;}
+
+.hobbies{
+    text-align: center;
+    position: relative;
+    bottom: 370px;
+    color: #ffffff;
+    }
+
+.hobbies-palka{
+    background-color: #ffffff;
+    width: 356px;
+    height: 2px;
+    position: relative;
+    bottom: 412px;
+    right: 581px;
+}
+
+.hobbies-right{
+    background-color: #ffffff;
+width: 356px;
+height: 2px;
+position: relative;
+bottom: 422px;
+left: 580px;
+}
+
+.carousel{
+    position: relative;
+    bottom: 380px;
+    right: 400px;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid #e6b8c7;
+    border-radius: 10px;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel video {
+    width: 100%;
+    display: block;
+}
+
+.carousel-controls {
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    bottom: 380px;
+    right: 400px;
+
+}
+
+.carousel-button {
+    background-color: #e6b8c7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.carousel-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+
+.text-hobbies{
+    text-align: right;
+    position: absolute;
+    left: 1000px;
+    top: 1700px;
+
+
+}
+
+.exit-hr{
+background-color: #000;
+position: relative;
+bottom: 378px;
+height: 1px;
+}
+
+.img-meregi{
+display: flex;
+width: 50px;
+}
+
+.image-links {
+    display: flex; /* Використовуємо Flexbox */
+    justify-content: center; /* Вирівнювання по горизонталі */
+    position: absolute;
+    top: 2180px;
+    left: 70%;
+    gap: 20px; /* Відступ між зображеннями */
+    margin-top: 50px;
+}
+
+.image-links a img {
+    width: 50px; /* Зменшений розмір зображень */
+    height: 50px; /* Зменшений розмір зображень */
+    transition: transform 0.3s;
+}
+
+.image-links a img:hover {
+    transform: scale(1.1); /* Масштабування під час наведення */
+}
+
+.email-link {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 360px;
+    left: 30px;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
